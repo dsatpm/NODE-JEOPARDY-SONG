@@ -1,0 +1,23 @@
+{
+  "name": "jeopardy-loading",
+  "version": "1.0.0",
+  "description": "Plays 'Final Jeopardy' song",
+  "main": "index.js",
+  "scripts": {
+    "preinstall": "echo postinstall",
+    "postinstall": "node final-jeopardy.js",
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "info": "./moduleinstall.sh"
+  },
+  "keywords": [
+    "jeopardy",
+    "final-jeopardy",
+    "audio"
+  ],
+  "author": "dsatpm",
+  "license": "MIT",
+  "dependencies": {
+    "jeopardy-loading": "^1.0.0",
+    "play-sound": "^1.1.6"
+  }
+}
